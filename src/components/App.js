@@ -11,10 +11,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="women" element={<Women />}>
-              <Route path="grooming" element={<p>Grooming</p>} />
-              <Route path="shirt" element={<p>Shirts</p>} />
-              <Route path="trouser" element={<p>Trouser</p>} />
-              <Route path="jewellery" element={<p>Jewellery</p>} />
+              <Route path="Grooming" element={<p>Grooming</p>} />
+              <Route path="Shirt" element={<p>Shirts</p>} />
+              <Route path="Trouser" element={<p>Trouser</p>} />
+              <Route path="Jewellery" element={<p>Jewellery</p>} />
             </Route>
           </Route>
         </Routes>
