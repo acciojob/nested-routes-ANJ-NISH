@@ -13,7 +13,7 @@ export const Layout = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/women">Women</Link></li>
       </ul>
-      {location.pathname==="/" && <p>Index</p>}
+      {location.pathname==="/" && Index}
       <Outlet /> 
     </div>
     </main>
